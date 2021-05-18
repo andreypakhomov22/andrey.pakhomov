@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action.php" id="form" name="form">
+<p>
+        <input type="text" class="name" name="name" id="name" maxlength="30" required placeholder="Name"/>
+</p>    
+<p>  
+    <input type="text" class="last_name" name="last_name" id="last_name" minlength="5" maxlength="30" required placeholder="Last name"/>
+</p>  
+<p>   
+    <input type="email" class="input_name_input" name="email" id="email" required placeholder="E-mail"/>
+</p>   
+<p>
+    <input type="tel" class="input_name_input" name="tel" id="tel" required placeholder="Tel"/>
+</p>
+
+<p>
+    <textarea class="extarea" name="extarea" id="extarea" required placeholder="Your Message"></textarea>
+</p>
+<p>
+    <select class="select" name="option" id="option" >
+        <option disabled>Заказать разработку:</option>
+
+         <option value="Разработка корпоративного сайта">Одностраничного сайта</option>
+         <option value="Разработка лендинга">Многостраничного сайта</option>
+         <option value="Разработка интернет магазина">Интернет магазина</option>
+         <option value="Разработка интернет магазина">Сайта на Tilda</option>
+        
+        
+        </select></p>
+
+    <p><input type="submit" value="Отправить"></p>
+   </form>
+
+</form>
+
+
+</body>
+</html>
